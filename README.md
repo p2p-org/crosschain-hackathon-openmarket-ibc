@@ -7,6 +7,7 @@
 **OpenMarket demo video:** 
 
 **OpenMarket Demo websites:** 
+- Original demo: https://demo.openmarket.one
 - Zone #1 https://demo-ibc0.openmarket.one
 - Zone #2 https://demo-ibc1.openmarket.one
 
