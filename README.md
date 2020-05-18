@@ -4,7 +4,7 @@
 ***Note*** : This repository was created for the cross-chain hackathon results estimation convenience
 
 
-**Openmarket demo video:** https://www.youtube.com/watch?v=Q30mDD2N3UY
+**Openmarket demo video:** 
 
 **OpenMarket Demo websites:** 
 - Zone #1 https://demo-ibc0.openmarket.one
@@ -21,9 +21,9 @@ Another area of application for NFT is decentralized finance. Tokens in them can
 
 From a technical point of view, OpenMarket consists of three interacting elements:
 
-* Protocol: Tendermint+cosmos-sdk based blockchain that stores basic token information and runs all trading logic (putting up a token for sale, purchase, transfer, etc.). Stored in marketplace and modules repos.
-* Data Warehouse (DWH) collects information about tokens from blockchain and constantly updates it, as well as aggregates NFT metadata located on external servers. Stroed in DWH repo.
-* The interface (web, mobile or CLI) allows you to send transactions to the blockchain and also receives and displays the information collected by DWH to users. Stored in openmarket-sdk and openmarket-demo repos.
+* Protocol: Tendermint+cosmos-sdk based blockchain that stores basic token information and runs all trading logic (putting up a token for sale, purchase, transfer, etc.). Stored in [marketplace](https://github.com/p2p-org/marketplace/tree/feat/hack-ibc-nft) and [modules](https://github.com/corestario/modules/tree/hack-ibc) repos.
+* Data Warehouse (DWH) collects information about tokens from blockchain and constantly updates it, as well as aggregates NFT metadata located on external servers. Stroed in [DWH](https://github.com/p2p-org/dwh/tree/hack-ibc-docker) repo.
+* The interface (web, mobile or CLI) allows you to send transactions to the blockchain and also receives and displays the information collected by DWH to users. Stored in [openmarket-sdk](https://github.com/p2p-org/openmarket-sdk) and [openmarket-demo](https://github.com/p2p-org/openmarket-demo/tree/dev) repos.
 
-
+Most interesting part blockchain-wise is [NFT IBC Packet module](https://github.com/p2p-org/marketplace/tree/feat/hack-ibc-nft/x/nftIBC).
 
