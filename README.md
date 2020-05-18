@@ -4,7 +4,7 @@
 ***Note*** : This repository was created for the cross-chain hackathon results estimation convenience
 
 
-**Openmarket demo video:** 
+**OpenMarket demo video:** 
 
 **OpenMarket Demo websites:** 
 - Zone #1 https://demo-ibc0.openmarket.one
